@@ -15,7 +15,7 @@ namespace GameJamAPI.Controllers
         // GET: api/Events
         public IQueryable<Event> GetEvents()
         {
-            return db.Events;
+            return db.Events; 
         }
 
         // GET: api/Events/5
